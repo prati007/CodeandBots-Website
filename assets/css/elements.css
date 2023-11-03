@@ -1,0 +1,45 @@
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+        background-color: rgba(0,0,0,0.3); 
+       z-index: -1;;
+  }
+  
+  .overlay {
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .overlay button{
+      /* background: none repeat scroll 0 0; */
+     
+      /* font-weight:800; */
+      font-size: 2vw;
+      background: #4154f1;
+      border-radius: 10px;
+      color: #fff;    
+      font-family: "Nunito", sans-serif;
+      font-weight: 600;
+      font-size: 16px;
+      letter-spacing: 1px;
+      /* margin: 2rem 3rem 0; */
+      /* mix-blend-mode: overlay; */
+      /* padding: 5px 15px; */
+      text-align: center;
+  }
+  
+  
